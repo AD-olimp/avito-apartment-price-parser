@@ -1,8 +1,4 @@
 from dotenv import load_dotenv
-# from typing import AsyncGenerator
-
-import asyncio
-import aiohttp
 import os
 
 dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
